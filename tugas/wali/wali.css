@@ -1,0 +1,181 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.navbar {
+  background: #470a48;
+  color: #fff;
+}
+.amikom2 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 20;
+  line-height: 10px;
+  margin-left: 40px;
+}
+.amikom h1 {
+  color: #fff;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* side bar */
+.sidebar {
+  height: 100vh;
+  background-color: #880093;
+  color: white;
+  width: 300px;
+}
+
+.sidebar-header {
+  background: #470a48;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.components {
+  padding: 0;
+}
+
+.components li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.components li a {
+  color: white;
+  text-decoration: none;
+}
+
+.components li a:hover {
+  color: #ffd700;
+}
+
+.content {
+  flex: 1;
+  background-color: #fdfdfd;
+  padding: 20px;
+}
+
+.sidebar-header {
+  color: #801982;
+}
+
+/* profile */
+.profile-status {
+  background-color: #800080; /* Purple background */
+  color: white;
+  padding: 15px;
+  border-radius: px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(image/amikom.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ff00;
+  margin-left: 5px;
+}
+
+/* konten dashboard */
+
+.dashboard-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dashboard-card {
+  background-color: #880093;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-card .count {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.dashboard-card .icon {
+  font-size: 48px;
+  color: #fff;
+}
+
+.dashboard-card .title {
+  font-size: 14px;
+  color: #fff;
+}
+
+.profile-card {
+  margin-top: 10px;
+  background-color: #f5f1f1;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-top: 5px solid #880093;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h3 {
+  margin-top: 0;
+}
+
+.profile-card .profile-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profile-card .profile-detail span {
+  font-weight: bold;
+}
+
+.button {
+  background-color: #8e44ad;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.profile-card .up {
+  width: 180px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  font-display: center;
+  background: #470a48;
+  color: white;
+  font-size: 30px !important; /* Changed from 20px to 50px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

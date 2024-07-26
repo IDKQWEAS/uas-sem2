@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body style="height: 100vh">
+    <div class="container-fluid m-0 h-100">
+      <div class="row h-100">
+        <div class="col-6 bg-img">
+          <!-- image sudah di css  -->
+        </div>
+        <div class="col-6 flex-column d-flex justify-content-center">
+          <div class="container-fluid w-75">
+            <div>
+              <!-- bagian header atas login -->
+              <div
+                class="d-flex mb-5 justify-content-center align-items-center gap-3"
+              >
+                <img
+                  alt="logo-amikom"
+                  src="./image/amikom.png"
+                  width="150"
+                  height="150"
+                />
+                <div>
+                  <span class="text-uppercase fw-bold fs-6"
+                    >Login Dashboard DOSEN</span
+                  >
+                  <h1 style="color: #620084; font-size: 4rem" class="fw-bold">
+                    AMIKOM
+                  </h1>
+                </div>
+              </div>
+
+              <!-- bagian header atas login -->
+
+              <!-- bagian form -->
+              <form>
+                <div class="form-login w-100 mb-4">
+                  <div class="w-100 mb-4">
+                    <input
+                      type="number"
+                      placeholder="NIDN"
+                      class="form-control border-0 border-dark rounded-0 border-bottom form-control-lg w-100"
+                    />
+                  </div>
+                  <div class="w-100">
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      class="form-control border-0 border-dark rounded-0 border-bottom form-control-lg w-100"
+                    />
+                  </div>
+                </div>
+
+                <!-- bagian remember nya -->
+
+                <span class="bw">
+                  <input class="raido" type="checkbox" value="" id="radio" />
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    remember me</label
+                  >
+                  <p class="d-inline">
+                    don’t have an account?
+                    <a href="../register/login.html">Sign up here</a>
+                  </p>
+                </span>
+
+                <!-- bagian remember nya -->
+                <button class="btn-login mt-5;">
+                  <a
+                    href="../dasboard/dasboard.html"
+                    style="text-decoration: none"
+                    >Login
+                  </a>
+                </button>
+              </form>
+
+              <!-- ini form nya ntar -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

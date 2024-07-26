@@ -1,0 +1,128 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.navbar {
+  background: #470a48;
+  color: #fff;
+}
+.amikom2 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 20;
+  line-height: 10px;
+  margin-left: 40px;
+}
+.amikom h1 {
+  color: #fff;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* side bar */
+.sidebar {
+  height: 100vh;
+  background-color: #880093;
+  color: white;
+  width: 300px;
+}
+
+.sidebar-header {
+  background: #470a48;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.components {
+  padding: 0;
+}
+
+.components li {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.components li a {
+  color: white;
+  text-decoration: none;
+}
+
+.components li a:hover {
+  color: #ffd700;
+}
+
+.content {
+  flex: 1;
+  background-color: #fdfdfd;
+  padding: 20px;
+}
+
+.sidebar-header {
+  color: #801982;
+}
+
+/* profile */
+.profile-status {
+  background-color: #800080;
+  color: white;
+  padding: 15px;
+  border-radius: px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(image/amikom.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ff00; /* Green for online status */
+  margin-left: 5px;
+}
+
+/* TAMBAH DATA */
+
+.form-container,
+.table-container {
+  background-color: #a349a4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.table thead th {
+  border-bottom: 2px solid #fff;
+}
+.table tbody td {
+  border-top: 1px solid #fff;
+}
+.btn-primary {
+  background-color: #4b0082;
+  border: none;
+  width: 200px;
+  margin-left: 150px !important;
+}
+.nm {
+  color: #fff;
+}
+.table {
+  border-radius: 8px;
+  border: 1px solid #000;
+
+  background: #ca91ce;
+}
